@@ -16,35 +16,34 @@
     <title>Sunnyside agency | Frontend Mentor Challenge</title>
   </head>
   <body>
-    <main>
-      <!-- <img class="mockup-mobile" src="./__downloads__/design/mobile-design.jpg" alt=""> -->
-      <!-- <img class="mockup-desktop" src="./__downloads__/design/desktop-design.jpg" alt=""> -->
-      <!-- <img class="mockup-mobile" src="./__downloads__/design/mobile-menu.jpg" alt=""> -->
+    <!-- <img class="mockup-mobile" src="./__downloads__/design/mobile-design.jpg" alt=""> -->
+    <!-- <img class="mockup-desktop" src="./__downloads__/design/desktop-design.jpg" alt=""> -->
+    <!-- <img class="mockup-mobile" src="./__downloads__/design/mobile-menu.jpg" alt=""> -->
 
-      <!-- NAVBAR START -->
-      <nav class="navbar">
-        <img src="./img/logo.svg" alt="logo icon" class="logo" />
-        <div class="menu-layout">
-          <div class="triangle"></div>
-          <div class="menu">
-            <ul>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-            </ul>
-            <div class="btn">Contact</div>
-          </div>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+      <img src="./img/logo.svg" alt="logo icon" class="logo" />
+      <div class="menu-layout">
+        <div class="triangle"></div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+          </ul>
+          <div class="btn">Contact</div>
         </div>
-        <img src="./img/icon-hamburger.svg" alt="hamburger" class="hamburger" />
-      </nav>
-      <!-- NAVBAR END -->
-
+      </div>
+      <img src="./img/icon-hamburger.svg" alt="hamburger" class="hamburger" />
+    </nav>
+    <!-- NAVBAR END -->
+    <main>
       <!-- HERO SECTION START -->
       <section class="hero-section">
         <img
@@ -254,56 +253,55 @@
         />
       </section>
       <!-- GALLERY END -->
-
-      <!-- FOOTER START -->
-      <footer>
-        <img src="./img/logo.svg" alt="logo" class="logo" />
-        <ul class="footer-menu">
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-        </ul>
-        <ul class="social-media">
-          <li>
-            <a href="#"
-              ><img src="./img/icon-facebook.svg" alt="facebook icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./img/icon-instagram.svg" alt="instagram icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./img/icon-twitter.svg" alt="twitter icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./img/icon-pinterest.svg" alt="pinterest icon"
-            /></a>
-          </li>
-        </ul>
-      </footer>
-
-      <!-- FOOTER END -->
-
-      <script>
-        const hamburger = document.querySelector(".hamburger");
-        const mobileMenu = document.querySelector(".menu-layout");
-
-        hamburger.addEventListener("click", function () {
-          hamburger.classList.toggle("hide");
-          mobileMenu.classList.toggle("menu-mobile");
-        });
-      </script>
     </main>
+    <!-- FOOTER START -->
+    <footer>
+      <img src="./img/logo.svg" alt="logo" class="logo" />
+      <ul class="footer-menu">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+      </ul>
+      <ul class="social-media">
+        <li>
+          <a href="#"
+            ><img src="./img/icon-facebook.svg" alt="facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./img/icon-instagram.svg" alt="instagram icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./img/icon-twitter.svg" alt="twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./img/icon-pinterest.svg" alt="pinterest icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- FOOTER END -->
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const mobileMenu = document.querySelector(".menu-layout");
+
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("hide");
+        mobileMenu.classList.toggle("menu-mobile");
+      });
+    </script>
   </body>
 </html>
