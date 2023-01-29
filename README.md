@@ -64,7 +64,7 @@ Users should be able to:
 }
 ```
 
-- Use toogle in the JavaScript.
+- Use toggle in the JavaScript.
 
 ```js
 const hamburger = document.querySelector(".hamburger");
